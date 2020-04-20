@@ -1,6 +1,6 @@
 import {InMemoryDBEntity} from '@nestjs-addons/in-memory-db';
 
-export interface Card extends InMemoryDBEntity {
-    title: string;
-    description: string;
+export interface Item extends InMemoryDBEntity {
+    name: string;
+    price: number;
 }

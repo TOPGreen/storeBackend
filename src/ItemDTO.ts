@@ -1,9 +1,9 @@
 import {IsNotEmpty} from 'class-validator';
 
-export class CardDTO {
+export class ItemDTO {
     @IsNotEmpty()
-    title: string;
+    name: string;
 
     @IsNotEmpty()
-    description: string;
+    price: number;
 }
